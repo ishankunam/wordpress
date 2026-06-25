@@ -1,0 +1,9 @@
+#!/bin/sh
+# Local wrapper for the Composer-installed WP-CLI.
+# Forwards all arguments to the local vendor/bin/wp binary.
+
+# Find the directory of this script, resolving symlinks if any
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Execute the local vendor bin
+exec "$DIR/../vendor/bin/wp" "$@"

@@ -1,0 +1,8 @@
+# Local vendor packages (Composer)
+vendor/
+
+# Local Composer binary if present
+composer.phar
+
+# WP-CLI cache directory
+.wp-cli/

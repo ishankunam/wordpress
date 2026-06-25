@@ -1,0 +1,16 @@
+{
+    "name": "weiser-center/wordpress-migration",
+    "description": "Tooling-only workspace for Weiser Center WordPress Migration",
+    "type": "project",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "wp-cli/wp-cli-bundle": "^2.12"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "scripts": {
+        "wp": "vendor/bin/wp"
+    }
+}
